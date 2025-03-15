@@ -52,9 +52,9 @@ def pal_():
     user=input("Enter a string: ")
     user1=user[::-1]
     if user==user1:
-        print(f'{user} is a palardome')
+        print(f'{user} is a palindome')
     else:
-        print(f"{user} is not a paladrome")
+        print(f"{user} is not a palindrome")
 
 def word_count():
     word_list = ["the","was","and"]
